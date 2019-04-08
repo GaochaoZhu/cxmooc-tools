@@ -44,5 +44,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: docs/.vuepress/dist
   keep-history: true
+  target-branch: gh-page
   on:
-    branch: gh-page
+    branch: master
